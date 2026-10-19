@@ -1,0 +1,5 @@
+# Center SIM - campanha SUA COMPRA VALE MAIS sai do ar 31/12/2026 23:55 (repescagem 01/01 00:15 e 06:00). Apagar depois de 01/01/2027.
+CRON_TZ=America/Sao_Paulo
+55 23 31 12 * root /usr/bin/python3 /opt/hq/campanhas/centersim_suacompra_remover.py
+15 0 1 1 * root /usr/bin/python3 /opt/hq/campanhas/centersim_suacompra_remover.py
+0 6 1 1 * root /usr/bin/python3 /opt/hq/campanhas/centersim_suacompra_remover.py

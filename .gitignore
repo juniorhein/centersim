@@ -26,3 +26,6 @@ dist-ssr
 # Local env files
 .env
 .env.local
+
+# anexos do e-mail do cliente (ficam fora do git)
+campanha-sua-compra-vale-mais/anexos-cliente/
